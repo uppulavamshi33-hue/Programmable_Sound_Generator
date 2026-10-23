@@ -1,8 +1,0 @@
-PSG Setup Timing Report
-=======================
-
-Clock Period       : 40.00 ns
-Input-to-Register  : 28.35 ns MET
-Reset Removal      : 8.05 ns MET
-WNS                : 0.00 ns
-TNS                : 0.00 ns
