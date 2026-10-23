@@ -432,7 +432,8 @@ The configured core utilization target was 30%. The final measured utilization s
 | Timing analysis | `evidences/timing/psg_timing_report.png` |
 | Physical verification | `evidences/verification/psg_verification.png` |
 
-<img width="997" height="742" alt="psg_gls_vcd" src="https://github.com/user-attachments/assets/97ea5c0a-e187-450c-af80-6f723a51ff9c" />
+<img width="997" height="742" alt="psg_vcd" src="https://github.com/user-attachments/assets/0683b41e-1145-4535-b5a3-e708946d9aa8" />
+
 
 <img width="1006" height="746" alt="psg_gls_vcd(2)" src="https://github.com/user-attachments/assets/1f8e6ea7-7b11-4cc3-bb21-7dfb5712d5d0" />
 
