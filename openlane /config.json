@@ -1,0 +1,12 @@
+
+{
+  "DESIGN_NAME": "psg",
+  "VERILOG_FILES": "dir::src/psg.v",
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 40,
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 100 100",
+  "FP_CORE_UTIL": 30,
+  "PL_TARGET_DENSITY": 0.40,
+  "SYNTH_MAX_FANOUT": 6
+}
