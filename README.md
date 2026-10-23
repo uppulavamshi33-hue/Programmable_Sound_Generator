@@ -178,35 +178,55 @@ The project follows the standard digital ASIC design flow:
 
 ```text
 PSG_Project/
+│
 ├── README.md
+│
 ├── rtl/
 │   └── psg.v
+│
 ├── tb/
 │   └── psg_tb.v
+│
+├── constraints/
+│   └── clock.sdc
+│
 ├── simulation/
 │   ├── psg.vcd
-│   └── README.md
-├── constraints/
-│   └── README.md
+│   └── simulation.log
+│
+├── synthesis/
+│   ├── psg_synth.v
+│   └── reports/
+│       └── synthesis_report.txt
+│
 ├── openlane/
 │   ├── config.tcl
 │   └── README.md
-├── synthesis/
-│   └── README.md
+│
 ├── timing/
-│   └── README.md
+│   └── reports/
+│       ├── setup_report.txt
+│       └── hold_report.txt
+│
 ├── results/
-│   └── README.md
-├── evidences/
-│   ├── rtl/
-│   ├── simulation/
-│   ├── synthesis/
-│   ├── floorplan/
-│   ├── placement/
-│   ├── cts/
-│   ├── routing/
-│   ├── timing/
-│   └── verification/
+│   |
+|   ├── reports/
+│   │   └── final_summary.txt
+│   └── layout/
+│       └── psg.gds
+│
+├── screenshots/
+    ├── rtl/
+    ├── simulation/
+    ├── synthesis/
+    ├── floorplan/
+    ├── placement/
+    ├── cts/
+    ├── routing/
+    ├── timing/
+    └── verification/
+
+
 ```
 
 *This is a recommended documentation structure. Keep only files and directories that actually exist in your repository, or create them before linking them here.*
