@@ -5,7 +5,9 @@
 | **Name** | U.VAMSHI |
 | **Roll No** | 24EG104C63 |
 | **Branch** | ECE-C |
-| **PDK / Library** | SKY130A / `sky130_fd_sc_hd` |
+| **PDK / Library** | SKY130A / `sky130_fd_sc_hd`|
+
+<img width="1536" height="1024" alt="PSG VLSI_ Real-World Sound Solutions" src="https://github.com/user-attachments/assets/2e5d6d9f-ab26-4d60-a761-0640523e1cb8" />
 
 ## 📌 Project Overview
 
@@ -408,8 +410,15 @@ A recorded floorplan core boundary was approximately:
 The configured core utilization target was 30%. The final measured utilization should be obtained from the completed OpenLane reports rather than inferred from the configuration.
 
 ## 🖼️ Physical Design Evidence
+<img width="1007" height="757" alt="psg_floorplan" src="https://github.com/user-attachments/assets/cf257847-eb2d-4b21-92a8-e7921e1870c3" />
 
-Add actual screenshots exported from your OpenLane run to the following locations.
+<img width="1010" height="742" alt="psg_cts" src="https://github.com/user-attachments/assets/2d0b19ad-736d-4349-b817-a56f87cec233" />
+
+<img width="1010" height="755" alt="psg_placement" src="https://github.com/user-attachments/assets/239c050f-0292-4451-b502-81d88f774d78" />
+
+<img width="1001" height="750" alt="psg_routing" src="https://github.com/user-attachments/assets/dea190ba-4e2b-4cb2-924d-8ec4bf3e3add" />
+
+<img width="1003" height="748" alt="psg_gds" src="https://github.com/user-attachments/assets/50e5a355-0ee4-422c-ab27-93fc68f99ba6" />
 
 | Stage | Suggested evidence file |
 |---|---|
@@ -423,8 +432,9 @@ Add actual screenshots exported from your OpenLane run to the following location
 | Timing analysis | `evidences/timing/psg_timing_report.png` |
 | Physical verification | `evidences/verification/psg_verification.png` |
 
+<img width="997" height="742" alt="psg_gls_vcd" src="https://github.com/user-attachments/assets/97ea5c0a-e187-450c-af80-6f723a51ff9c" />
 
-Use screenshots from your actual run; do not substitute illustrative images for implementation evidence.
+<img width="1006" height="746" alt="psg_gls_vcd(2)" src="https://github.com/user-attachments/assets/1f8e6ea7-7b11-4cc3-bb21-7dfb5712d5d0" />
 
 ## ✅ Physical Verification
 
