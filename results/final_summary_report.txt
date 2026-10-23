@@ -1,0 +1,26 @@
+PROGRAMMABLE SOUND GENERATOR (PSG)
+FINAL DESIGN SUMMARY
+
+Technology: SKY130
+Design: psg
+Physical design flow: OpenLane
+Final layout format: GDSII
+
+PRE-LAYOUT TIMING
+Register minimum-delay slack: 0.29 ns (MET)
+Register maximum-delay slack: 28.09 ns (MET)
+WNS summary: 0.00 ns
+TNS summary: 0.00 ns
+
+SPEF-BASED TIMING
+Register minimum-delay slack: 0.26 ns (MET)
+Register maximum-delay slack: 28.35 ns (MET)
+WNS summary: 0.00 ns
+TNS summary: 0.00 ns
+
+LAYOUT
+GDSII output was found in the OpenLane run directory.
+A copy is stored at physical_design/psg.gds.
+
+Note: Area, utilization, DRC, LVS, and all-corner timing
+signoff must be verified from their respective reports.
