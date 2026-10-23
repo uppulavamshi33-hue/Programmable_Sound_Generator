@@ -494,7 +494,32 @@ The final repository should include the full DRC, LVS, and antenna reports. A st
 8. Examine the final timing and physical verification reports.
 9. Confirm the final GDSII file and document the measured results.
 
+## Reproducing commands
+```bash
+# 1. RTL simulation
+iverilog -g2012 -o tb.vvp rtl/psg.v tb/tb_psg.v && vvp tb.vvp
+
+# 2. Synthesis
+cd synthesis && yosys -l synth.log synth.ys
+
+# 3. Pre-layout STA
+sta -exit constraints/psg.sdc synthesis/psg_synth.v
+
+# 4. Gate-level simulation
+iverilog -g2012 -o gls.vvp \
+  synthesis/psg_synth.v tb/tb_psg_gls.v && vvp gls.vvp
+
+# 5. Physical design (OpenLane)
+cd openlane
+make mount
+./flow.tcl -design psg -tag run_final
+
+# 6. Post-layout STA
+sta -exit constraints/psg.sdc results/psg.spef
+
 Exact commands for the physical flow depend on the OpenLane installation and version used for this project.
+```
+
 
 ## 📚 Documentation
 
