@@ -1,0 +1,12 @@
+
+# Clock and control inputs
+clk
+reset
+enable
+
+# Tone selection inputs
+tone_select[0]
+tone_select[1]
+
+# Audio output
+sound_out
