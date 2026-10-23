@@ -186,48 +186,56 @@ PSG_Project/
 │
 ├── tb/
 │   └── psg_tb.v
-│
+|__ gls/
+|    |__psg_gls
+│    |__tb_psg_gls.v
+|
 ├── constraints/
 │   └── clock.sdc
 │
 ├── simulation/
-│   ├── psg.vcd
-│   └── simulation.log
+│   ├── psg.sim
+|   |__psg_sky_130_power.v
+│   
 │
 ├── synthesis/
 │   ├── psg_synth.v
-│   └── reports/
-│       └── synthesis_report.txt
+│   └── psg_sky130.v
+│ 
 │
 ├── openlane/
 │   ├── config.tcl
-│   └── README.md
+│   |── config.json
+|   |__pin_order_cfg  
 │
 ├── timing/
 │   └── reports/
-│       ├── setup_report.txt
-│       └── hold_report.txt
+│       ├── postlayout_setup_hold_report.txt
+│       └── prelayout_setup_hold_report.txt
 │
 ├── results/
 │   |
 |   ├── reports/
 │   │   └── final_summary.txt
-│   └── layout/
-│       └── psg.gds
+│   └──psg.gds
+│       
 │
 ├── screenshots/
-    ├── rtl/
-    ├── simulation/
-    ├── synthesis/
-    ├── floorplan/
-    ├── placement/
-    ├── cts/
-    ├── routing/
-    ├── timing/
-    └── verification/
+|    ├── rtl/
+|    ├── simulation/
+|    ├── synthesis/
+|    ├── floorplan/
+|    ├── placement/
+|    ├── cts/
+|    ├── routing/
+|    
+|___verification_report
+      |__ psg_antenna_report.rpt
+      |__ psg_drc_report.txt
+      |__ psg_lvs_report.log  
+      |
 
-
-```
+``` 
 
 *This is a recommended documentation structure. Keep only files and directories that actually exist in your repository, or create them before linking them here.*
 
