@@ -1,5 +1,12 @@
 # Programmable Sound Generator (PSG) — RTL to GDSII Using SKY130
 
+| | |
+|---|---|
+| **Name** | U.VAMSHI |
+| **Roll No** | 24EG104C63 |
+| **Branch** | ECE-C |
+| **PDK / Library** | SKY130A / `sky130_fd_sc_hd` |
+
 ## 📌 Project Overview
 
 The **Programmable Sound Generator (PSG)** is a digital VLSI design implemented using Verilog HDL and targeted for the **SkyWater SKY130 standard-cell technology**. The design generates square-wave audio tones using counter-based frequency division and programmable tone selection.
